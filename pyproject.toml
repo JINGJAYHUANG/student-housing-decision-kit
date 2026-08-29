@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "student-housing-decision-kit"
+version = "0.1.0"
+description = "Explainable, privacy-conscious student housing decision support with hard constraints, sensitivity analysis and auditable exports."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+  { name = "JINGJAYHUANG" }
+]
+keywords = [
+  "decision-support",
+  "student-housing",
+  "multi-criteria-decision-analysis",
+  "sensitivity-analysis",
+  "sqlite",
+  "privacy"
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Education",
+  "Intended Audience :: End Users/Desktop",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Office/Business",
+  "Topic :: Scientific/Engineering :: Information Analysis"
+]
+dependencies = []
+
+[project.scripts]
+housing-decision = "housing_decision_kit.cli:main"
+
+[project.urls]
+Repository = "https://github.com/JINGJAYHUANG/student-housing-decision-kit"
+Issues = "https://github.com/JINGJAYHUANG/student-housing-decision-kit/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

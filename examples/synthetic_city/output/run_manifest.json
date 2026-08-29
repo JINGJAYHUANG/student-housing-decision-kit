@@ -1,0 +1,20 @@
+{
+  "all_data_synthetic": true,
+  "as_of": "2026-06-15",
+  "eligible_count": 8,
+  "generated_at": "2026-06-15T12:00:00Z",
+  "input_hash": "177191fc110f11778bafebdab64ebfe01e4fe9885ad1572f022620e6950fe18f",
+  "listing_count": 14,
+  "output_files": {
+    "budget_scenarios.csv": "c342a8c1d0b086d0b0fc235309d6f7c538c83c13267f341457685bab943908ea",
+    "decision.json": "2d1d8174aaaeb617690c8dd5037dfc8bdad8f87228edbd2309808846a4b02153",
+    "decision.sqlite": "165ddd2cc05a45224b8b4e21d0e3a3834a2a4bf08db4632438ee304e821e653e",
+    "decision_report.html": "c4df35fd4a6c89d85857100098b44b0cedd249e6e19f300d80802010ab252aed",
+    "ranking.csv": "c3ee8dce91c78ef8d32407697cbc65a4fa3f20fa5b848c49c8082dfabf677c22",
+    "score_contributions.csv": "4f72409723216705bc65f75613b42310b09671ccf71922e51a741404c9168650",
+    "sensitivity_matrix.csv": "58ca9a0d52c7e828a0b3d9a78136715a8e46f0a7082541e1917e770aba4d3022",
+    "sensitivity_summary.csv": "2d78339090239d4db84221cb3419f1fbf606017952b66b138acaebf5e38fbc35",
+    "validation.json": "5a8844921e0e1728c358a45f2a5764ea5b10625a1675bcfea9fdac95d5992a09"
+  },
+  "package_version": "0.1.0"
+}

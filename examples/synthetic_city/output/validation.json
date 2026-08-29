@@ -1,0 +1,9 @@
+[
+  {
+    "code": "all_data_synthetic",
+    "listing_id": null,
+    "message": "Every listing is explicitly marked as synthetic.",
+    "row": null,
+    "severity": "info"
+  }
+]

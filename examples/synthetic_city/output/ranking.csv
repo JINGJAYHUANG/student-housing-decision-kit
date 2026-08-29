@@ -1,0 +1,15 @@
+rank,listing_id,name,area,housing_mode,eligible,pareto_efficient,total_score,all_in_monthly,rent_share,cash_needed_at_signing,refundable_deposit,first_year_nonrefundable_cost,first_year_home_currency,source_age_days,constraint_reasons,score_affordability,score_safety,score_commute,score_convenience,score_management,score_quiet,score_space,score_application,score_timing,score_freshness,score_completeness
+1,SYN-014,Scholars Landing,Campus East,shared,true,true,8.9267,2765.0,2550.0,7900.0,2550.0,33430.0,230667.0,3,[],10.0,7.9,10.0,9.2,8.1,6.9,8.4,9.5,9.7333,10.0,10.0
+2,SYN-003,Atlas House,Campus South,shared,true,false,8.8726,2920.0,2700.0,8400.0,2700.0,35340.0,243846.0,10,[],9.7789,8.5,10.0,8.8,8.3,7.8,8.9,7.8,7.619,10.0,10.0
+3,SYN-002,Cedar Square Apartments,Medical District,solo,true,false,8.5209,3370.0,3050.0,9550.0,3050.0,40840.0,281796.0,9,[],8.3579,8.7,8.0952,8.5,8.6,8.8,6.2,9.0,9.6667,10.0,10.0
+4,SYN-008,Willow Court,West Village,shared,true,true,8.4947,2360.0,2200.0,6750.0,2200.0,28470.0,196443.0,15,[],10.0,8.3,8.5714,8.0,7.0,7.5,7.8,8.0,10.0,10.0,10.0
+5,SYN-006,Riverstone Commons,North Residential,shared,true,false,8.24,2610.0,2400.0,7450.0,2400.0,31570.0,217833.0,18,[],10.0,8.8,5.2381,7.0,8.2,9.1,9.0,7.0,9.3667,10.0,10.0
+6,SYN-004,Beacon Gardens,River Quarter,solo,true,false,8.1136,3610.0,3300.0,10250.0,3300.0,43670.0,301323.0,14,[],7.6,9.2,6.1905,7.2,8.0,9.4,8.2,7.5,10.0,10.0,10.0
+7,SYN-001,Harbor Point Residences,Central District,solo,true,false,8.0338,4260.0,3850.0,12000.0,3850.0,51570.0,355833.0,7,[],2.7632,9.0,10.0,9.0,9.2,7.6,8.0,8.5,9.9333,10.0,10.0
+8,SYN-007,University Edge,Campus Edge,solo,true,true,7.6688,4020.0,3600.0,11300.0,3600.0,48740.0,336306.0,6,[],4.9737,8.1,10.0,9.5,8.8,6.5,5.8,9.2,2.381,10.0,10.0
+9,SYN-012,Elm Commons,North Residential,shared,false,false,8.3593,3330.0,3100.0,9575.0,3100.0,40235.0,277621.5,134,"[""source age 134 days exceeds freshness cap 90 days""]",8.4842,9.0,7.619,7.8,8.7,8.9,8.7,7.9,10.0,3.0667,10.0
+10,SYN-005,Parkline Lofts,Entertainment District,solo,false,false,8.1092,3350.0,2850.0,9050.0,2850.0,40700.0,280830.0,5,"[""safety 7.4 is below minimum 7.5""]",8.4211,7.4,9.0476,9.1,7.8,5.8,6.0,8.8,9.8333,10.0,10.0
+11,SYN-013,Northgate Residences,Campus North,solo,false,false,7.8309,3540.0,3200.0,10025.0,3200.0,42905.0,296044.5,4,"[""move-in is 31 days late; maximum is 21 days""]",7.8211,8.0,9.5238,8.1,7.7,8.1,6.8,8.2,0.0,10.0,10.0
+12,SYN-010,Franklin Place,Outer East,solo,false,false,7.6241,2730.0,2450.0,7650.0,2450.0,33060.0,228114.0,12,"[""commute 38 min exceeds maximum 35 min""]",10.0,7.8,4.1429,6.8,7.3,8.2,6.6,7.6,9.7333,10.0,10.0
+13,SYN-009,MetroView,Central District,solo,false,false,7.4767,4760.0,4200.0,13250.0,4200.0,57770.0,398613.0,8,"[""signing cash $13,250 exceeds cap $12,500""]",0.0,8.6,10.0,9.4,9.4,6.8,7.5,8.6,9.9333,10.0,10.0
+14,SYN-011,Summit House,Midtown,solo,false,false,7.4644,3880.0,3500.0,10900.0,3500.0,46960.0,324024.0,11,"[""safety 6.5 is below minimum 7.5""]",6.2632,6.5,6.6667,8.2,8.1,8.0,7.4,8.1,9.9667,10.0,10.0

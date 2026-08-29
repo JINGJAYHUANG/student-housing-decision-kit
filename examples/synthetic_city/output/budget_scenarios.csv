@@ -1,0 +1,57 @@
+scenario,listing_id,name,monthly_usd,signing_cash_usd,first_year_usd,first_year_home_currency,home_currency
+base,SYN-001,Harbor Point Residences,4260.0,12000.0,51570.0,355833.0,CNY
+fees_and_utilities_plus_20pct,SYN-001,Harbor Point Residences,4342.0,12000.0,52554.0,362622.6,CNY
+rent_plus_5pct,SYN-001,Harbor Point Residences,4452.5,12577.5,53880.0,371772.0,CNY
+home_currency_weakens_5pct,SYN-001,Harbor Point Residences,4260.0,12000.0,51570.0,373624.65,CNY
+base,SYN-002,Cedar Square Apartments,3370.0,9550.0,40840.0,281796.0,CNY
+fees_and_utilities_plus_20pct,SYN-002,Cedar Square Apartments,3434.0,9550.0,41608.0,287095.2,CNY
+rent_plus_5pct,SYN-002,Cedar Square Apartments,3522.5,10007.5,42670.0,294423.0,CNY
+home_currency_weakens_5pct,SYN-002,Cedar Square Apartments,3370.0,9550.0,40840.0,295885.8,CNY
+base,SYN-003,Atlas House,2920.0,8400.0,35340.0,243846.0,CNY
+fees_and_utilities_plus_20pct,SYN-003,Atlas House,2964.0,8400.0,35868.0,247489.2,CNY
+rent_plus_5pct,SYN-003,Atlas House,3055.0,8805.0,36960.0,255024.0,CNY
+home_currency_weakens_5pct,SYN-003,Atlas House,2920.0,8400.0,35340.0,256038.3,CNY
+base,SYN-004,Beacon Gardens,3610.0,10250.0,43670.0,301323.0,CNY
+fees_and_utilities_plus_20pct,SYN-004,Beacon Gardens,3672.0,10250.0,44414.0,306456.6,CNY
+rent_plus_5pct,SYN-004,Beacon Gardens,3775.0,10745.0,45650.0,314985.0,CNY
+home_currency_weakens_5pct,SYN-004,Beacon Gardens,3610.0,10250.0,43670.0,316389.15,CNY
+base,SYN-005,Parkline Lofts,3350.0,9050.0,40700.0,280830.0,CNY
+fees_and_utilities_plus_20pct,SYN-005,Parkline Lofts,3450.0,9050.0,41900.0,289110.0,CNY
+rent_plus_5pct,SYN-005,Parkline Lofts,3492.5,9477.5,42410.0,292629.0,CNY
+home_currency_weakens_5pct,SYN-005,Parkline Lofts,3350.0,9050.0,40700.0,294871.5,CNY
+base,SYN-006,Riverstone Commons,2610.0,7450.0,31570.0,217833.0,CNY
+fees_and_utilities_plus_20pct,SYN-006,Riverstone Commons,2652.0,7450.0,32074.0,221310.6,CNY
+rent_plus_5pct,SYN-006,Riverstone Commons,2730.0,7810.0,33010.0,227769.0,CNY
+home_currency_weakens_5pct,SYN-006,Riverstone Commons,2610.0,7450.0,31570.0,228724.65,CNY
+base,SYN-007,University Edge,4020.0,11300.0,48740.0,336306.0,CNY
+fees_and_utilities_plus_20pct,SYN-007,University Edge,4104.0,11300.0,49748.0,343261.2,CNY
+rent_plus_5pct,SYN-007,University Edge,4200.0,11840.0,50900.0,351210.0,CNY
+home_currency_weakens_5pct,SYN-007,University Edge,4020.0,11300.0,48740.0,353121.3,CNY
+base,SYN-008,Willow Court,2360.0,6750.0,28470.0,196443.0,CNY
+fees_and_utilities_plus_20pct,SYN-008,Willow Court,2392.0,6750.0,28854.0,199092.6,CNY
+rent_plus_5pct,SYN-008,Willow Court,2470.0,7080.0,29790.0,205551.0,CNY
+home_currency_weakens_5pct,SYN-008,Willow Court,2360.0,6750.0,28470.0,206265.15,CNY
+base,SYN-009,MetroView,4760.0,13250.0,57770.0,398613.0,CNY
+fees_and_utilities_plus_20pct,SYN-009,MetroView,4872.0,13250.0,59114.0,407886.6,CNY
+rent_plus_5pct,SYN-009,MetroView,4970.0,13880.0,60290.0,416001.0,CNY
+home_currency_weakens_5pct,SYN-009,MetroView,4760.0,13250.0,57770.0,418543.65,CNY
+base,SYN-010,Franklin Place,2730.0,7650.0,33060.0,228114.0,CNY
+fees_and_utilities_plus_20pct,SYN-010,Franklin Place,2786.0,7650.0,33732.0,232750.8,CNY
+rent_plus_5pct,SYN-010,Franklin Place,2852.5,8017.5,34530.0,238257.0,CNY
+home_currency_weakens_5pct,SYN-010,Franklin Place,2730.0,7650.0,33060.0,239519.7,CNY
+base,SYN-011,Summit House,3880.0,10900.0,46960.0,324024.0,CNY
+fees_and_utilities_plus_20pct,SYN-011,Summit House,3956.0,10900.0,47872.0,330316.8,CNY
+rent_plus_5pct,SYN-011,Summit House,4055.0,11425.0,49060.0,338514.0,CNY
+home_currency_weakens_5pct,SYN-011,Summit House,3880.0,10900.0,46960.0,340225.2,CNY
+base,SYN-012,Elm Commons,3330.0,9575.0,40235.0,277621.5,CNY
+fees_and_utilities_plus_20pct,SYN-012,Elm Commons,3376.0,9575.0,40787.0,281430.3,CNY
+rent_plus_5pct,SYN-012,Elm Commons,3485.0,10040.0,42095.0,290455.5,CNY
+home_currency_weakens_5pct,SYN-012,Elm Commons,3330.0,9575.0,40235.0,291502.58,CNY
+base,SYN-013,Northgate Residences,3540.0,10025.0,42905.0,296044.5,CNY
+fees_and_utilities_plus_20pct,SYN-013,Northgate Residences,3608.0,10025.0,43721.0,301674.9,CNY
+rent_plus_5pct,SYN-013,Northgate Residences,3700.0,10505.0,44825.0,309292.5,CNY
+home_currency_weakens_5pct,SYN-013,Northgate Residences,3540.0,10025.0,42905.0,310846.73,CNY
+base,SYN-014,Scholars Landing,2765.0,7900.0,33430.0,230667.0,CNY
+fees_and_utilities_plus_20pct,SYN-014,Scholars Landing,2808.0,7900.0,33946.0,234227.4,CNY
+rent_plus_5pct,SYN-014,Scholars Landing,2892.5,8282.5,34960.0,241224.0,CNY
+home_currency_weakens_5pct,SYN-014,Scholars Landing,2765.0,7900.0,33430.0,242200.35,CNY
