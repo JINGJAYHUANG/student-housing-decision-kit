@@ -70,11 +70,14 @@ jobs:
           set -euo pipefail
           python .bootstrap/normalize_source.py "$RUNNER_TEMP/source-tree"
 
-      - name: Replace placeholder with verified source
+      - name: Replace placeholder with verified non-workflow source
         shell: bash
         run: |
           set -euo pipefail
-          rsync -a --delete --exclude='.git/' "$RUNNER_TEMP/source-tree/" ./
+          rsync -a --delete \
+            --exclude='.git/' \
+            --exclude='.github/workflows/' \
+            "$RUNNER_TEMP/source-tree/" ./
 
       - name: Run release gate
         shell: bash
