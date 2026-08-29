@@ -1,0 +1,29 @@
+name: Diagnose bootstrap parts
+
+on:
+  push:
+    branches:
+      - feat/public-v0.1.0
+    paths:
+      - .bootstrap/diagnostic-trigger.txt
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Check every encoded part
+        shell: bash
+        run: |
+          set -u
+          sha256sum -c .bootstrap/PARTS_SHA256.txt
+          status=$?
+          echo 'Actual part digests:'
+          sha256sum .bootstrap/source.tar.xz.b64.part-*
+          exit "$status"
