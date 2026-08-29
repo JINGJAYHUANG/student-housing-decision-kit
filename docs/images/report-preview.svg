@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Student Housing Decision Kit report preview</title>
+<desc id="desc">A synthetic dashboard preview showing eligibility, ranking, costs, sensitivity and audit outputs.</desc>
+<rect width="1200" height="630" fill="#f7f7f5"/>
+<rect x="50" y="45" width="1100" height="540" rx="24" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+<text x="90" y="105" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#111827">Student Housing Decision Kit</text>
+<text x="90" y="143" font-family="Arial, sans-serif" font-size="20" fill="#4b5563">Explainable ranking · hard constraints · sensitivity · auditable exports</text>
+<g font-family="Arial, sans-serif">
+<rect x="90" y="185" width="300" height="145" rx="16" fill="#eef2ff"/>
+<text x="115" y="225" font-size="20" font-weight="700" fill="#1f2937">Eligibility gate</text>
+<text x="115" y="263" font-size="18" fill="#374151">8 eligible</text><text x="115" y="294" font-size="18" fill="#374151">6 filtered with reasons</text>
+<rect x="450" y="185" width="300" height="145" rx="16" fill="#ecfdf5"/>
+<text x="475" y="225" font-size="20" font-weight="700" fill="#1f2937">Top synthetic option</text>
+<text x="475" y="263" font-size="18" fill="#374151">Score 8.93 / 10</text><text x="475" y="294" font-size="18" fill="#374151">All-in $2,765 / month</text>
+<rect x="810" y="185" width="300" height="145" rx="16" fill="#fff7ed"/>
+<text x="835" y="225" font-size="20" font-weight="700" fill="#1f2937">Robustness</text>
+<text x="835" y="263" font-size="18" fill="#374151">28 sensitivity cases</text><text x="835" y="294" font-size="18" fill="#374151">4 budget stresses</text>
+<rect x="90" y="375" width="1020" height="150" rx="16" fill="#f3f4f6"/>
+<text x="115" y="417" font-size="20" font-weight="700" fill="#1f2937">Reproducible output bundle</text>
+<text x="115" y="458" font-size="18" fill="#374151">ranking.csv · score_contributions.csv · decision.json · decision.sqlite</text>
+<text x="115" y="490" font-size="18" fill="#374151">decision_report.html · sensitivity matrices · run_manifest.json</text>
+</g></svg>

@@ -1,0 +1,155 @@
+listing_id,name,criterion,component_score,normalized_weight,weighted_contribution
+SYN-014,Scholars Landing,affordability,10.0,0.16,1.6
+SYN-014,Scholars Landing,safety,7.9,0.17,1.343
+SYN-014,Scholars Landing,commute,10.0,0.15,1.5
+SYN-014,Scholars Landing,convenience,9.2,0.09,0.828
+SYN-014,Scholars Landing,management,8.1,0.1,0.81
+SYN-014,Scholars Landing,quiet,6.9,0.1,0.69
+SYN-014,Scholars Landing,space,8.4,0.06,0.504
+SYN-014,Scholars Landing,application,9.5,0.07,0.665
+SYN-014,Scholars Landing,timing,9.7333,0.05,0.4867
+SYN-014,Scholars Landing,freshness,10.0,0.03,0.3
+SYN-014,Scholars Landing,completeness,10.0,0.02,0.2
+SYN-003,Atlas House,affordability,9.7789,0.16,1.5646
+SYN-003,Atlas House,safety,8.5,0.17,1.445
+SYN-003,Atlas House,commute,10.0,0.15,1.5
+SYN-003,Atlas House,convenience,8.8,0.09,0.792
+SYN-003,Atlas House,management,8.3,0.1,0.83
+SYN-003,Atlas House,quiet,7.8,0.1,0.78
+SYN-003,Atlas House,space,8.9,0.06,0.534
+SYN-003,Atlas House,application,7.8,0.07,0.546
+SYN-003,Atlas House,timing,7.619,0.05,0.381
+SYN-003,Atlas House,freshness,10.0,0.03,0.3
+SYN-003,Atlas House,completeness,10.0,0.02,0.2
+SYN-002,Cedar Square Apartments,affordability,8.3579,0.16,1.3373
+SYN-002,Cedar Square Apartments,safety,8.7,0.17,1.479
+SYN-002,Cedar Square Apartments,commute,8.0952,0.15,1.2143
+SYN-002,Cedar Square Apartments,convenience,8.5,0.09,0.765
+SYN-002,Cedar Square Apartments,management,8.6,0.1,0.86
+SYN-002,Cedar Square Apartments,quiet,8.8,0.1,0.88
+SYN-002,Cedar Square Apartments,space,6.2,0.06,0.372
+SYN-002,Cedar Square Apartments,application,9.0,0.07,0.63
+SYN-002,Cedar Square Apartments,timing,9.6667,0.05,0.4833
+SYN-002,Cedar Square Apartments,freshness,10.0,0.03,0.3
+SYN-002,Cedar Square Apartments,completeness,10.0,0.02,0.2
+SYN-008,Willow Court,affordability,10.0,0.16,1.6
+SYN-008,Willow Court,safety,8.3,0.17,1.411
+SYN-008,Willow Court,commute,8.5714,0.15,1.2857
+SYN-008,Willow Court,convenience,8.0,0.09,0.72
+SYN-008,Willow Court,management,7.0,0.1,0.7
+SYN-008,Willow Court,quiet,7.5,0.1,0.75
+SYN-008,Willow Court,space,7.8,0.06,0.468
+SYN-008,Willow Court,application,8.0,0.07,0.56
+SYN-008,Willow Court,timing,10.0,0.05,0.5
+SYN-008,Willow Court,freshness,10.0,0.03,0.3
+SYN-008,Willow Court,completeness,10.0,0.02,0.2
+SYN-006,Riverstone Commons,affordability,10.0,0.16,1.6
+SYN-006,Riverstone Commons,safety,8.8,0.17,1.496
+SYN-006,Riverstone Commons,commute,5.2381,0.15,0.7857
+SYN-006,Riverstone Commons,convenience,7.0,0.09,0.63
+SYN-006,Riverstone Commons,management,8.2,0.1,0.82
+SYN-006,Riverstone Commons,quiet,9.1,0.1,0.91
+SYN-006,Riverstone Commons,space,9.0,0.06,0.54
+SYN-006,Riverstone Commons,application,7.0,0.07,0.49
+SYN-006,Riverstone Commons,timing,9.3667,0.05,0.4683
+SYN-006,Riverstone Commons,freshness,10.0,0.03,0.3
+SYN-006,Riverstone Commons,completeness,10.0,0.02,0.2
+SYN-004,Beacon Gardens,affordability,7.6,0.16,1.216
+SYN-004,Beacon Gardens,safety,9.2,0.17,1.564
+SYN-004,Beacon Gardens,commute,6.1905,0.15,0.9286
+SYN-004,Beacon Gardens,convenience,7.2,0.09,0.648
+SYN-004,Beacon Gardens,management,8.0,0.1,0.8
+SYN-004,Beacon Gardens,quiet,9.4,0.1,0.94
+SYN-004,Beacon Gardens,space,8.2,0.06,0.492
+SYN-004,Beacon Gardens,application,7.5,0.07,0.525
+SYN-004,Beacon Gardens,timing,10.0,0.05,0.5
+SYN-004,Beacon Gardens,freshness,10.0,0.03,0.3
+SYN-004,Beacon Gardens,completeness,10.0,0.02,0.2
+SYN-001,Harbor Point Residences,affordability,2.7632,0.16,0.4421
+SYN-001,Harbor Point Residences,safety,9.0,0.17,1.53
+SYN-001,Harbor Point Residences,commute,10.0,0.15,1.5
+SYN-001,Harbor Point Residences,convenience,9.0,0.09,0.81
+SYN-001,Harbor Point Residences,management,9.2,0.1,0.92
+SYN-001,Harbor Point Residences,quiet,7.6,0.1,0.76
+SYN-001,Harbor Point Residences,space,8.0,0.06,0.48
+SYN-001,Harbor Point Residences,application,8.5,0.07,0.595
+SYN-001,Harbor Point Residences,timing,9.9333,0.05,0.4967
+SYN-001,Harbor Point Residences,freshness,10.0,0.03,0.3
+SYN-001,Harbor Point Residences,completeness,10.0,0.02,0.2
+SYN-007,University Edge,affordability,4.9737,0.16,0.7958
+SYN-007,University Edge,safety,8.1,0.17,1.377
+SYN-007,University Edge,commute,10.0,0.15,1.5
+SYN-007,University Edge,convenience,9.5,0.09,0.855
+SYN-007,University Edge,management,8.8,0.1,0.88
+SYN-007,University Edge,quiet,6.5,0.1,0.65
+SYN-007,University Edge,space,5.8,0.06,0.348
+SYN-007,University Edge,application,9.2,0.07,0.644
+SYN-007,University Edge,timing,2.381,0.05,0.119
+SYN-007,University Edge,freshness,10.0,0.03,0.3
+SYN-007,University Edge,completeness,10.0,0.02,0.2
+SYN-012,Elm Commons,affordability,8.4842,0.16,1.3575
+SYN-012,Elm Commons,safety,9.0,0.17,1.53
+SYN-012,Elm Commons,commute,7.619,0.15,1.1429
+SYN-012,Elm Commons,convenience,7.8,0.09,0.702
+SYN-012,Elm Commons,management,8.7,0.1,0.87
+SYN-012,Elm Commons,quiet,8.9,0.1,0.89
+SYN-012,Elm Commons,space,8.7,0.06,0.522
+SYN-012,Elm Commons,application,7.9,0.07,0.553
+SYN-012,Elm Commons,timing,10.0,0.05,0.5
+SYN-012,Elm Commons,freshness,3.0667,0.03,0.092
+SYN-012,Elm Commons,completeness,10.0,0.02,0.2
+SYN-005,Parkline Lofts,affordability,8.4211,0.16,1.3474
+SYN-005,Parkline Lofts,safety,7.4,0.17,1.258
+SYN-005,Parkline Lofts,commute,9.0476,0.15,1.3571
+SYN-005,Parkline Lofts,convenience,9.1,0.09,0.819
+SYN-005,Parkline Lofts,management,7.8,0.1,0.78
+SYN-005,Parkline Lofts,quiet,5.8,0.1,0.58
+SYN-005,Parkline Lofts,space,6.0,0.06,0.36
+SYN-005,Parkline Lofts,application,8.8,0.07,0.616
+SYN-005,Parkline Lofts,timing,9.8333,0.05,0.4917
+SYN-005,Parkline Lofts,freshness,10.0,0.03,0.3
+SYN-005,Parkline Lofts,completeness,10.0,0.02,0.2
+SYN-013,Northgate Residences,affordability,7.8211,0.16,1.2514
+SYN-013,Northgate Residences,safety,8.0,0.17,1.36
+SYN-013,Northgate Residences,commute,9.5238,0.15,1.4286
+SYN-013,Northgate Residences,convenience,8.1,0.09,0.729
+SYN-013,Northgate Residences,management,7.7,0.1,0.77
+SYN-013,Northgate Residences,quiet,8.1,0.1,0.81
+SYN-013,Northgate Residences,space,6.8,0.06,0.408
+SYN-013,Northgate Residences,application,8.2,0.07,0.574
+SYN-013,Northgate Residences,timing,0.0,0.05,0.0
+SYN-013,Northgate Residences,freshness,10.0,0.03,0.3
+SYN-013,Northgate Residences,completeness,10.0,0.02,0.2
+SYN-010,Franklin Place,affordability,10.0,0.16,1.6
+SYN-010,Franklin Place,safety,7.8,0.17,1.326
+SYN-010,Franklin Place,commute,4.1429,0.15,0.6214
+SYN-010,Franklin Place,convenience,6.8,0.09,0.612
+SYN-010,Franklin Place,management,7.3,0.1,0.73
+SYN-010,Franklin Place,quiet,8.2,0.1,0.82
+SYN-010,Franklin Place,space,6.6,0.06,0.396
+SYN-010,Franklin Place,application,7.6,0.07,0.532
+SYN-010,Franklin Place,timing,9.7333,0.05,0.4867
+SYN-010,Franklin Place,freshness,10.0,0.03,0.3
+SYN-010,Franklin Place,completeness,10.0,0.02,0.2
+SYN-009,MetroView,affordability,0.0,0.16,0.0
+SYN-009,MetroView,safety,8.6,0.17,1.462
+SYN-009,MetroView,commute,10.0,0.15,1.5
+SYN-009,MetroView,convenience,9.4,0.09,0.846
+SYN-009,MetroView,management,9.4,0.1,0.94
+SYN-009,MetroView,quiet,6.8,0.1,0.68
+SYN-009,MetroView,space,7.5,0.06,0.45
+SYN-009,MetroView,application,8.6,0.07,0.602
+SYN-009,MetroView,timing,9.9333,0.05,0.4967
+SYN-009,MetroView,freshness,10.0,0.03,0.3
+SYN-009,MetroView,completeness,10.0,0.02,0.2
+SYN-011,Summit House,affordability,6.2632,0.16,1.0021
+SYN-011,Summit House,safety,6.5,0.17,1.105
+SYN-011,Summit House,commute,6.6667,0.15,1.0
+SYN-011,Summit House,convenience,8.2,0.09,0.738
+SYN-011,Summit House,management,8.1,0.1,0.81
+SYN-011,Summit House,quiet,8.0,0.1,0.8
+SYN-011,Summit House,space,7.4,0.06,0.444
+SYN-011,Summit House,application,8.1,0.07,0.567
+SYN-011,Summit House,timing,9.9667,0.05,0.4983
+SYN-011,Summit House,freshness,10.0,0.03,0.3
+SYN-011,Summit House,completeness,10.0,0.02,0.2

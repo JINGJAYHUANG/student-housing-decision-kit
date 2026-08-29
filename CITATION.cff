@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If this software supports your work, cite this repository."
+title: "Student Housing Decision Kit"
+type: software
+version: 0.1.0
+date-released: 2026-08-29
+authors:
+  - name: JINGJAYHUANG
+repository-code: "https://github.com/JINGJAYHUANG/student-housing-decision-kit"
+license: MIT
+abstract: >-
+  Explainable, privacy-conscious student housing decision support with hard
+  constraints, weighted scoring, Pareto analysis, sensitivity testing and
+  auditable CSV, JSON, HTML and SQLite exports.

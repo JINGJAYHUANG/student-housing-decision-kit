@@ -1,0 +1,30 @@
+{
+  "profile_name": "Example graduate student",
+  "target_label": "Example University Center",
+  "target_move_in": "2026-08-20",
+  "max_move_in_delay_days": 21,
+  "max_all_in_monthly": 3800,
+  "enforce_budget_cap": false,
+  "max_upfront_cash": 12500,
+  "min_safety_score": 7.5,
+  "max_commute_minutes": 35,
+  "allowed_housing_modes": ["solo", "shared"],
+  "max_source_age_days": 90,
+  "require_fresh_source": true,
+  "home_currency": "CNY",
+  "usd_to_home_rate": 6.90,
+  "sensitivity_delta": 0.25,
+  "weights": {
+    "affordability": 0.16,
+    "safety": 0.17,
+    "commute": 0.15,
+    "convenience": 0.09,
+    "management": 0.10,
+    "quiet": 0.10,
+    "space": 0.06,
+    "application": 0.07,
+    "timing": 0.05,
+    "freshness": 0.03,
+    "completeness": 0.02
+  }
+}

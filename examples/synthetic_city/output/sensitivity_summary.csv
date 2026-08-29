@@ -1,0 +1,15 @@
+listing_id,name,baseline_rank,best_rank,worst_rank,average_rank,top_one_count,eligible_scenarios,scenario_count,robustness_score
+SYN-014,Scholars Landing,1,1,6,1.179,27,27,28,5.934
+SYN-003,Atlas House,2,1,2,1.964,1,28,28,9.231
+SYN-002,Cedar Square Apartments,3,2,4,3.107,0,28,28,8.462
+SYN-008,Willow Court,4,3,7,4,0,27,28,6.676
+SYN-006,Riverstone Commons,5,3,9,5.179,0,27,28,5.192
+SYN-004,Beacon Gardens,6,4,10,6.143,0,27,28,5.192
+SYN-001,Harbor Point Residences,7,4,7,6.643,0,28,28,7.692
+SYN-007,University Edge,8,6,12,8.179,0,26,28,5.0
+SYN-012,Elm Commons,9,7,9,8.857,0,0,28,0.0
+SYN-005,Parkline Lofts,10,8,10,9.857,0,0,28,0.0
+SYN-013,Northgate Residences,11,10,12,10.964,0,0,28,0.0
+SYN-010,Franklin Place,12,11,14,12.107,0,0,28,0.0
+SYN-009,MetroView,13,12,14,13.071,0,0,28,0.0
+SYN-011,Summit House,14,13,14,13.75,0,0,28,0.0

@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/student-housing-decision-kit/preferences.schema.json",
+  "title": "Student housing preference profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "profile_name",
+    "target_label",
+    "target_move_in",
+    "max_move_in_delay_days",
+    "max_all_in_monthly",
+    "enforce_budget_cap",
+    "max_upfront_cash",
+    "min_safety_score",
+    "max_commute_minutes",
+    "allowed_housing_modes",
+    "max_source_age_days",
+    "require_fresh_source",
+    "home_currency",
+    "usd_to_home_rate",
+    "sensitivity_delta",
+    "weights"
+  ],
+  "properties": {
+    "profile_name": { "type": "string", "minLength": 1 },
+    "target_label": { "type": "string", "minLength": 1 },
+    "target_move_in": { "type": "string", "format": "date" },
+    "max_move_in_delay_days": { "type": "integer", "minimum": 0 },
+    "max_all_in_monthly": { "type": "number", "exclusiveMinimum": 0 },
+    "enforce_budget_cap": { "type": "boolean" },
+    "max_upfront_cash": { "type": "number", "exclusiveMinimum": 0 },
+    "min_safety_score": { "type": "number", "minimum": 0, "maximum": 10 },
+    "max_commute_minutes": { "type": "number", "exclusiveMinimum": 0 },
+    "allowed_housing_modes": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "enum": ["solo", "shared"] }
+    },
+    "max_source_age_days": { "type": "integer", "minimum": 1 },
+    "require_fresh_source": { "type": "boolean" },
+    "home_currency": { "type": "string", "minLength": 3, "maxLength": 8 },
+    "usd_to_home_rate": { "type": "number", "exclusiveMinimum": 0 },
+    "sensitivity_delta": { "type": "number", "exclusiveMinimum": 0, "exclusiveMaximum": 1 },
+    "weights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "affordability",
+        "safety",
+        "commute",
+        "convenience",
+        "management",
+        "quiet",
+        "space",
+        "application",
+        "timing",
+        "freshness",
+        "completeness"
+      ],
+      "properties": {
+        "affordability": { "type": "number", "minimum": 0 },
+        "safety": { "type": "number", "minimum": 0 },
+        "commute": { "type": "number", "minimum": 0 },
+        "convenience": { "type": "number", "minimum": 0 },
+        "management": { "type": "number", "minimum": 0 },
+        "quiet": { "type": "number", "minimum": 0 },
+        "space": { "type": "number", "minimum": 0 },
+        "application": { "type": "number", "minimum": 0 },
+        "timing": { "type": "number", "minimum": 0 },
+        "freshness": { "type": "number", "minimum": 0 },
+        "completeness": { "type": "number", "minimum": 0 }
+      },
+      "minProperties": 11
+    }
+  }
+}

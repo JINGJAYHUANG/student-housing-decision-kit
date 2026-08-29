@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.venv/
+venv/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local/private inputs
+private_data/
+local_data/
+*.private.csv
+*.private.json
+.env
+.env.*
+!.env.example
+
+# Generated scratch outputs
+/tmp/
+.tmp/
+
+# Keep the committed deterministic demo outputs.
+!examples/synthetic_city/output/
