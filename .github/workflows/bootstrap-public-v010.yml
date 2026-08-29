@@ -1,0 +1,101 @@
+name: Bootstrap public v0.1.0
+
+on:
+  push:
+    branches:
+      - feat/public-v0.1.0
+    paths:
+      - .bootstrap/trigger.txt
+
+permissions:
+  contents: write
+
+concurrency:
+  group: student-housing-bootstrap-v010
+  cancel-in-progress: false
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out bootstrap branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+          cache: ""
+
+      - name: Reconstruct and verify source archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .bootstrap/source.tar.xz.b64.part-* | base64 --decode > "$RUNNER_TEMP/source.tar.xz"
+          printf '%s  %s\n' \
+            '9a86d729cc5f8884d0c9f7386aa0c6fb690eec4ea574d1ef19f5142a86c4e6d5' \
+            "$RUNNER_TEMP/source.tar.xz" | sha256sum -c -
+
+      - name: Extract archive with path and link checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          ARCHIVE="$RUNNER_TEMP/source.tar.xz" DEST="$RUNNER_TEMP/source-tree" python - <<'PY'
+          import os
+          import tarfile
+          from pathlib import Path
+
+          archive = Path(os.environ["ARCHIVE"])
+          destination = Path(os.environ["DEST"])
+          destination.mkdir(parents=True, exist_ok=True)
+          root = destination.resolve()
+          with tarfile.open(archive, "r:xz") as handle:
+              for member in handle.getmembers():
+                  candidate = (destination / member.name).resolve()
+                  if candidate != root and root not in candidate.parents:
+                      raise SystemExit(f"unsafe archive path: {member.name}")
+                  if member.issym() or member.islnk():
+                      raise SystemExit(f"archive links are not allowed: {member.name}")
+              handle.extractall(destination, filter="data")
+          PY
+
+      - name: Replace placeholder with verified source
+        shell: bash
+        run: |
+          set -euo pipefail
+          rsync -a --delete --exclude='.git/' "$RUNNER_TEMP/source-tree/" ./
+
+      - name: Run release gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --no-deps -e .
+          python -m compileall -q src scripts tests
+          python -m unittest discover -s tests -v
+          python scripts/privacy_scan.py
+          rm -rf "$RUNNER_TEMP/ci-output"
+          housing-decision evaluate \
+            --listings examples/synthetic_city/listings.csv \
+            --preferences examples/synthetic_city/preferences.json \
+            --as-of 2026-06-15 \
+            --generated-at 2026-06-15T12:00:00Z \
+            --output-dir "$RUNNER_TEMP/ci-output"
+          python scripts/verify_demo.py --output-dir "$RUNNER_TEMP/ci-output"
+          python scripts/compare_demo.py \
+            examples/synthetic_city/output \
+            "$RUNNER_TEMP/ci-output"
+
+      - name: Commit clean public source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "feat: publish student housing decision kit v0.1.0"
+          git push origin HEAD:feat/public-v0.1.0
